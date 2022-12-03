@@ -1,0 +1,33 @@
+main{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 5px solid palevioletred;
+    border-radius: 3px;
+    padding: 10px;
+}
+.right{
+    min-width: 200px;
+    border: 5px solid peru;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+input{}
+.btn{
+    width: auto;
+}
+.top_inputs{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.bottom_inputs{
+
+}
